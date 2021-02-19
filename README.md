@@ -26,8 +26,9 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 <img src="https://github.com/andrey548/Flixter/blob/master/walkthrough.gif?raw=true" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
-
+Instead of displaying movie's title and movie's descriptiong I was displaying movie's description twice. 
+I displayed the description in place where title should go. Fixed by first checking Movie model and noticing that getTitle()
+was never used. When I went into MovieAdapter I noticed that I used getOverview() for both the title and the overview fields.
 ### Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
