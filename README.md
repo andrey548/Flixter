@@ -36,7 +36,7 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 <img src="https://github.com/andrey548/Flixter/blob/master/walkthrough2.gif?raw=true" width=250><br>
 
 ### Notes
-I reduced rating bar to 5 stars and devided the value that you get for rating by 2 in the detail activity, becasuse 10 stars seemed like too much, and also made some additnoal style changes
+I reduced rating bar to 5 stars and devided the value that you get for rating by 2 in the detail activity, becasuse 10 stars seemed like too many, and also made some additnoal style changes. In the deteailed view I'm showing the relase data insted of popularity, because I do not understand what popularity number would really mean when you show it. Unfortunelty I did not get to this week's additional stories, so I did not make and adjustments/aditions based on popularity value
 
 Instead of displaying movie's title and movie's descriptiong I was displaying movie's description twice. 
 I displayed the description in place where title should go. Fixed by first checking Movie model and noticing that getTitle()
