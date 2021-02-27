@@ -35,8 +35,9 @@
         android:layout_marginLeft="3dp"
         android:isIndicator="true"
         android:numStars="5"
-        android:rating="5" />
-
+        android:rating="5"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="#FFD700"/>
     <TextView
         android:id="@+id/tvDetailsOverview"
         android:layout_width="match_parent"
