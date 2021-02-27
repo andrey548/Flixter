@@ -33,7 +33,7 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 ### App Walkthough GIF
 
 
-<img src="https://github.com/andrey548/Flixter/blob/master/walkthrough.gif?raw=true" width=250><br>
+<img src="https://github.com/andrey548/Flixter/blob/master/walkthrough2.gif?raw=true" width=250><br>
 
 ### Notes
 Instead of displaying movie's title and movie's descriptiong I was displaying movie's description twice. 
